@@ -1,0 +1,32 @@
+{
+  "name": "code_challeng",
+  "version": "1.0.0",
+  "description": "- Requerimientos:\r >Habilitar un endpoint para consultar todos los estudiantes con todos sus campos.\r >Habilitar un endpoint para consultar los emails de todos los estudiantes que tengan certificación haveCertification.\r >Habilitar un endpoint para consultar todos los estudiantes que tengan credits mayor a 500",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest --verbose",
+    "linter": "node ./node_modules/eslint/bin/eslint.js .",
+    "linter-fix": "node ./node_modules/eslint/bin/eslint.js . --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erykzon/Code_Challenge.git"
+  },
+  "author": "erykzon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/erykzon/Code_Challenge/issues"
+  },
+  "homepage": "https://github.com/erykzon/Code_Challenge#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "jest": "^26.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0"
+  }
+}
