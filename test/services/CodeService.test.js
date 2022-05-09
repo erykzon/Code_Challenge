@@ -13,4 +13,9 @@ describe('Prueba para Service ', () => {
        expect(Certification.email="Sexton@visualpartnership.xyz").toContain("Sexton@visualpartnership.xyz")
 
    })
+   test('Test para over 500',() =>{
+       const over500 = Service.StudentsCredits(base)
+       expect(over500.credits = 508).toBeGreaterThan(500)
+    //    console.log(over500.credits)
+   })
   });
